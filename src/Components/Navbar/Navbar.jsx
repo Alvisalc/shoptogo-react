@@ -15,6 +15,7 @@ export const Navbar = () => {
         <p>ShopToGo</p>
       </div>
       <ul className='nav-menu'>
+        {/* click function + hr condition if menu is shop will show hr if not, will be empty. */}
         <li onClick={()=>{setMenu("shop")}}>Shop{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("men")}}>Men{menu==="men"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("women")}}>Women{menu==="women"?<hr/>:<></>}</li>
