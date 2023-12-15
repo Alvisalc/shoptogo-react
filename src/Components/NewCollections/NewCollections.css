@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    margin-bottom: 100px;
 }
 
 .new-collections h1{
@@ -30,4 +30,24 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
     gap: 30px;
+}
+
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.newsletter div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
